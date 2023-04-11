@@ -26,6 +26,9 @@ const Home = () => {
             <Feature key={feature.id} feature={feature}></Feature>
           ))}
         </div>
+        <div className="see-more-btn-div mt-10 mb-10">
+          <button className="see-more-btn">See More</button>
+        </div>
       </section>
     </div>
   );
