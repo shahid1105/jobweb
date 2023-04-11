@@ -1,0 +1,24 @@
+.featured-container {
+  margin-top: 125px;
+}
+.featured-job {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+
+  text-align: center;
+  color: #1a1919;
+}
+.feature-para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #757575;
+}

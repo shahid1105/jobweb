@@ -1,0 +1,92 @@
+[
+  {
+    "id": "job_001",
+    "jobName": "Software Engineer",
+    "companyLogo": "https://example.com/logos/company1.png",
+    "companyName": "ABC Company",
+    "fulltime": "Full-Time",
+    "remote": "On-Site",
+    "location": "San Francisco, CA",
+    "salary": "$100,000 - $120,000"
+  },
+  {
+    "id": "job_002",
+    "jobName": "Product Designer",
+    "companyLogo": "https://example.com/logos/company2.png",
+    "companyName": "XYZ Corporation",
+    "fulltime": "Part-Time",
+    "remote": "Remote",
+    "location": "New York, NY",
+    "salary": "$80,000 - $100,000"
+  },
+  {
+    "id": "job_003",
+    "jobName": "Data Analyst",
+    "companyLogo": "https://example.com/logos/company3.png",
+    "companyName": "DataTech Inc.",
+    "fulltime": "Full-Time",
+    "remote": "On-Site",
+    "location": "Chicago, IL",
+    "salary": "$90,000 - $110,000"
+  },
+  {
+    "id": "job_004",
+    "jobName": "Graphic Designer",
+    "companyLogo": "https://example.com/logos/company4.png",
+    "companyName": "DesignCo",
+    "fulltime": "Part-Time",
+    "remote": "On-Site",
+    "location": "Los Angeles, CA",
+    "salary": "$60,000 - $80,000"
+  },
+  {
+    "id": "job_005",
+    "jobName": "Marketing Coordinator",
+    "companyLogo": "https://example.com/logos/company5.png",
+    "companyName": "MarketingPro",
+    "fulltime": "Full-Time",
+    "remote": "Remote",
+    "location": "Seattle, WA",
+    "salary": "$70,000 - $90,000"
+  },
+  {
+    "id": "job_006",
+    "jobName": "Sales Manager",
+    "companyLogo": "https://example.com/logos/company6.png",
+    "companyName": "SalesCorp",
+    "fulltime": "Part-Time",
+    "remote": "Remote",
+    "location": "Miami, FL",
+    "salary": "$50,000 - $70,000"
+  },
+  {
+    "id": "job_007",
+    "jobName": "Project Coordinator",
+    "companyLogo": "https://example.com/logos/company7.png",
+    "companyName": "ProjectCo",
+    "fulltime": "Full-Time",
+    "remote": "On-Site",
+    "location": "Denver, CO",
+    "salary": "$70,000 - $90,000"
+  },
+  {
+    "id": "job_008",
+    "jobName": "Human Resources Specialist",
+    "companyLogo": "https://example.com/logos/company8.png",
+    "companyName": "HR Solutions",
+    "fulltime": "Part-Time",
+    "remote": "Remote",
+    "location": "Austin, TX",
+    "salary": "$80,000 - $100,000"
+  },
+  {
+    "id": "job_009",
+    "jobName": "Financial Analyst",
+    "companyLogo": "https://example.com/logos/company9.png",
+    "companyName": "HTTP",
+    "fulltime": "Part-Time",
+    "remote": "Remote",
+    "location": "Austin, TX",
+    "salary": "$80,000 - $100,000"
+  }
+]

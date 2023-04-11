@@ -1,0 +1,8 @@
+.job-card-container {
+  display: flex;
+}
+
+.feature-job-card {
+  width: 648px;
+  height: 392px;
+}

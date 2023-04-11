@@ -1,0 +1,50 @@
+.one-step-div {
+  width: 500px;
+  height: 400px;
+}
+.one-step-title {
+  color: #1a1919;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 80px;
+}
+.dream-job {
+  color: #7e90fe;
+}
+.header-img {
+  width: 700px;
+  height: 500px;
+}
+.get-btn {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 19px 28px;
+
+  width: 172px;
+  height: 65px;
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  margin-top: 32px;
+}
+.header-para {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+.bg-color {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
+}
