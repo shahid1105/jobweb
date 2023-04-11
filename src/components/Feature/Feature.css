@@ -3,4 +3,40 @@
   height: 300px;
   border: 1px solid gray;
   border-radius: 10px;
+  padding: 30px;
+}
+.job-name {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #474747;
+}
+.company-name {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+}
+.fulltime-remote {
+  color: rgb(163, 163, 234);
+  padding: 5px 10px;
+  border: 1px solid rgb(127, 127, 226);
+  border-radius: 8px;
+}
+.btn-view {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
 }

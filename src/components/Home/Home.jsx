@@ -7,7 +7,7 @@ import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
   const features = useLoaderData();
-  console.log(features);
+
   return (
     <div>
       <Header></Header>
