@@ -8,11 +8,11 @@
     "remote": "On-Site",
     "location": "San Francisco, CA",
     "salary": "$100,000 - $120,000",
-    "JobDescription": "We are seeking a creative and detail-oriented graphic designer to join our team. The ideal candidate will have experience with both print and digital media, and be able to work on a variety of projects, from branding and marketing materials to web design and social media graphics.",
-    "JobResponsibility": "Design and produce marketing materials, including brochures, flyers, and advertisements. Create graphics for social media platforms and website. Collaborate with team members to develop and execute brand identity and marketing strategies. Manage multiple projects and meet deadlines. Stay up-to-date with design trends and best practices.",
-    "EducationalRequirements": "Bachelor's degree in graphic design or related field.",
-    "Experiences": "2+ years of professional design experience.",
-    "ContactInformation": {
+    "jobDescription": "We are seeking a creative and detail-oriented graphic designer to join our team. The ideal candidate will have experience with both print and digital media, and be able to work on a variety of projects, from branding and marketing materials to web design and social media graphics.",
+    "jobResponsibility": "Design and produce marketing materials, including brochures, flyers, and advertisements. Create graphics for social media platforms and website. Collaborate with team members to develop and execute brand identity and marketing strategies. Manage multiple projects and meet deadlines. Stay up-to-date with design trends and best practices.",
+    "educationalRequirements": "Bachelor's degree in graphic design or related field.",
+    "experiences": "2+ years of professional design experience.",
+    "contactInformation": {
       "phone": "(555) 555-5555",
       "email": "designer@example.com"
     }
@@ -26,11 +26,11 @@
     "remote": "Remote",
     "location": "New York, NY",
     "salary": "$80,000 - $100,000",
-    "JobDescription": "We are seeking a skilled sales representative to join our team. The ideal candidate will have experience in B2B sales, as well as excellent communication and negotiation skills.",
-    "JobResponsibility": "Identify and pursue new sales opportunities. Develop and maintain relationships with clients. Negotiate and close deals. Provide exceptional customer service.",
-    "EducationalRequirements": "Bachelor's degree in business or related field.",
-    "Experiences": "3+ years of professional sales experience.",
-    "ContactInformation": {
+    "jobDescription": "We are seeking a skilled sales representative to join our team. The ideal candidate will have experience in B2B sales, as well as excellent communication and negotiation skills.",
+    "jobResponsibility": "Identify and pursue new sales opportunities. Develop and maintain relationships with clients. Negotiate and close deals. Provide exceptional customer service.",
+    "educationalRequirements": "Bachelor's degree in business or related field.",
+    "experiences": "3+ years of professional sales experience.",
+    "contactInformation": {
       "phone": "(555) 555-5555",
       "email": "sales@example.com"
     }
@@ -44,11 +44,11 @@
     "remote": "On-Site",
     "location": "Chicago, IL",
     "salary": "$90,000 - $110,000",
-    "JobDescription": "We are looking for a motivated and detail-oriented administrative assistant to join our team. The ideal candidate will have excellent organizational and communication skills, as well as proficiency with office software.",
-    "JobResponsibility": "Answer and direct phone calls. Maintain office files and records. Schedule meetings and appointments. Assist with administrative tasks, such as preparing reports and presentations. Provide exceptional customer service.",
-    "EducationalRequirements": "Associate's degree in business or related field.",
-    "Experiences": "1+ years of professional administrative experience.",
-    "ContactInformation": {
+    "jobDescription": "We are looking for a motivated and detail-oriented administrative assistant to join our team. The ideal candidate will have excellent organizational and communication skills, as well as proficiency with office software.",
+    "jobResponsibility": "Answer and direct phone calls. Maintain office files and records. Schedule meetings and appointments. Assist with administrative tasks, such as preparing reports and presentations. Provide exceptional customer service.",
+    "educationalRequirements": "Associate's degree in business or related field.",
+    "experiences": "1+ years of professional administrative experience.",
+    "contactInformation": {
       "phone": "(555) 555-5555",
       "email": "admin@example.com"
     }
@@ -62,11 +62,11 @@
     "remote": "On-Site",
     "location": "Los Angeles, CA",
     "salary": "$60,000 - $80,000",
-    "JobDescription": "We are looking for an experienced software engineer to join our team. The ideal candidate will have a strong background in software development, including experience with multiple programming languages and platforms.",
-    "JobResponsibility": "Design and develop software solutions to meet business needs. Collaborate with team members to identify and prioritize software requirements. Test and debug software to ensure quality and performance. Stay up-to-date with emerging technologies and best practices.",
-    "EducationalRequirements": "Bachelor's degree in computer science or related field.",
-    "Experiences": "5+ years of professional software development experience.",
-    "ContactInformation": {
+    "jobDescription": "We are looking for an experienced software engineer to join our team. The ideal candidate will have a strong background in software development, including experience with multiple programming languages and platforms.",
+    "jobResponsibility": "Design and develop software solutions to meet business needs. Collaborate with team members to identify and prioritize software requirements. Test and debug software to ensure quality and performance. Stay up-to-date with emerging technologies and best practices.",
+    "educationalRequirements": "Bachelor's degree in computer science or related field.",
+    "experiences": "5+ years of professional software development experience.",
+    "contactInformation": {
       "phone": "(555) 555-5555",
       "email": "developer@example.com"
     }
@@ -80,13 +80,13 @@
     "remote": "Remote",
     "location": "Seattle, WA",
     "salary": "$70,000 - $90,000",
-    "JobDescription": "Sales Representative",
-    "JobResponsibility": "Generate new leads and close sales deals",
-    "EducationalRequirements": "Bachelor's degree in Business or related field",
-    "Experiences": "2+ years of sales experience",
-    "ContactInformation": {
-      "Phone": "(555) 123-4567",
-      "Email": "salesrep@company.com"
+    "jobDescription": "Sales Representative",
+    "jobResponsibility": "Generate new leads and close sales deals",
+    "educationalRequirements": "Bachelor's degree in Business or related field",
+    "experiences": "2+ years of sales experience",
+    "contactInformation": {
+      "phone": "(555) 123-4567",
+      "email": "salesrep@company.com"
     }
   },
   {
@@ -98,13 +98,13 @@
     "remote": "Remote",
     "location": "Miami, FL",
     "salary": "$50,000 - $70,000",
-    "JobDescription": "Software Engineer",
-    "JobResponsibility": "Develop and maintain software applications",
-    "EducationalRequirements": "Bachelor's degree in Computer Science or related field",
-    "Experiences": "3+ years of software development experience",
-    "ContactInformation": {
-      "Phone": "(555) 234-5678",
-      "Email": "dev@company.com"
+    "jobDescription": "Software Engineer",
+    "jobResponsibility": "Develop and maintain software applications",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of software development experience",
+    "contactInformation": {
+      "phone": "(555) 234-5678",
+      "email": "dev@company.com"
     }
   },
   {
@@ -116,13 +116,13 @@
     "remote": "On-Site",
     "location": "Denver, CO",
     "salary": "$70,000 - $90,000",
-    "JobDescription": "Marketing Manager",
-    "JobResponsibility": "Develop and implement marketing strategies",
-    "EducationalRequirements": "Bachelor's degree in Marketing or related field",
-    "Experiences": "5+ years of marketing experience",
-    "ContactInformation": {
-      "Phone": "(555) 345-6789",
-      "Email": "marketing@company.com"
+    "jobDescription": "Marketing Manager",
+    "jobResponsibility": "Develop and implement marketing strategies",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "5+ years of marketing experience",
+    "contactInformation": {
+      "phone": "(555) 345-6789",
+      "email": "marketing@company.com"
     }
   },
   {
@@ -134,13 +134,13 @@
     "remote": "Remote",
     "location": "Austin, TX",
     "salary": "$80,000 - $100,000",
-    "JobDescription": "Customer Service Representative",
-    "JobResponsibility": "Assist customers with inquiries and complaints",
-    "EducationalRequirements": "High school diploma or equivalent",
-    "Experiences": "1+ years of customer service experience",
-    "ContactInformation": {
-      "Phone": "(555) 456-7890",
-      "Email": "customerservice@company.com"
+    "jobDescription": "Customer Service Representative",
+    "jobResponsibility": "Assist customers with inquiries and complaints",
+    "educationalRequirements": "High school diploma or equivalent",
+    "experiences": "1+ years of customer service experience",
+    "contactInformation": {
+      "phone": "(555) 456-7890",
+      "email": "customerservice@company.com"
     }
   },
   {
@@ -152,7 +152,7 @@
     "remote": "Remote",
     "location": "Austin, TX",
     "salary": "$80,000 - $100,000",
-    "JobDescription": "Software Developer",
+    "jobDescription": "Software Developer",
     "jobResponsibility": "Design and develop software applications",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "2+ years of experience in software development",

@@ -1,0 +1,46 @@
+.details-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 20px;
+}
+.side-card {
+  width: 400px;
+  height: 350px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
+}
+.contact-card {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #1a1919;
+}
+.common-class {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #6a6a6a;
+}
+.apply-btn {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #ffffff;
+
+  height: 40px;
+
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+}

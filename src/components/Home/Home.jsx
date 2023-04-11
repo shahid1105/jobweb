@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Header/Header";
 import "./Home.css";
 import Feature from "../Feature/Feature";
@@ -7,6 +7,18 @@ import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
   const features = useLoaderData();
+
+  //   const [seeMore, setSeeMore] = useState(true);
+  //   const [featuresAll, setFeaturesAll] = useState();
+
+  //   if (seeMore) {
+  //     seeMore = seeMore.slice(0, 4);
+  //     setFeaturesAll(seeMore);
+  //   } else {
+  //     setSeeMore();
+  //   }
+
+  //   const seeMoreHandler = () => {}; onClick={() => seeMoreHandler(true)}
 
   return (
     <div>
