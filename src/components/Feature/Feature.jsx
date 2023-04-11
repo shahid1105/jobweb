@@ -6,9 +6,7 @@ const Feature = ({ feature }) => {
   console.log(id);
   return (
     <div>
-      <div className="md:mx-48 mt-8 job-card-container">
-        <div className="feature-job-card">rsegdrhdr</div>
-      </div>
+      <div className="feature-job-card">rsegdrhdr</div>
     </div>
   );
 };

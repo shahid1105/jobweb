@@ -11,18 +11,21 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
-      <div>
+      <section>
         <JobCategory></JobCategory>
-      </div>
+      </section>
+
       <section className="featured-container">
         <h1 className="featured-job">Featured Jobs</h1>
         <p className="feature-para">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
-        {features.map((feature) => (
-          <Feature key={feature.id} feature={feature}></Feature>
-        ))}
+        <div className="md:mx-48 mt-8 job-card-container">
+          {features.map((feature) => (
+            <Feature key={feature.id} feature={feature}></Feature>
+          ))}
+        </div>
       </section>
     </div>
   );
