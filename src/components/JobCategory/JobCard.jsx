@@ -3,7 +3,6 @@ import "./JobCard.css";
 
 const JobCard = ({ data }) => {
   const { picture, quantity, title } = data;
-  console.log(data);
   return (
     <div className="category-div">
       <img className="category-img" src={picture} alt="" />
