@@ -15,7 +15,7 @@ const AppliedJobCard = ({ card }) => {
     location,
     salary,
   } = card;
-  console.log(card);
+
   return (
     <div className="mt-14">
       <div className="card-container p-10">

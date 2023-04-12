@@ -5,10 +5,27 @@
   font-weight: 700;
   font-family: "Manrope";
   height: 100px;
-  background: linear-gradient(
-    90deg,
-    rgba(126, 144, 254, 0.1) 0%,
-    rgba(152, 115, 255, 0.1) 100%
-  );
+
+  background-image: linear-gradient(
+      90deg,
+      rgba(126, 144, 254, 0.1) 0%,
+      rgba(152, 115, 255, 0.1) 100%
+    ),
+    url(../../../public/image/Vector-1.png);
+  background-repeat: no-repeat;
   border-radius: 8px;
+}
+.filter-btn {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+
+  color: #ffffff;
+
+  width: 80px;
+  height: 30px;
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 4px;
 }
