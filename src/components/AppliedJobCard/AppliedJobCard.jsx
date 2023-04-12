@@ -38,7 +38,9 @@ const AppliedJobCard = ({ card }) => {
           </div>
         </div>
         <div className="card-btn-div">
-          <button className="card-view-btn">View Details</button>
+          <Link to={`/viewDetails/${id}`}>
+            <button className="card-view-btn">View Details</button>
+          </Link>
         </div>
       </div>
     </div>
