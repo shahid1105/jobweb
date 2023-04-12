@@ -30,6 +30,9 @@
   line-height: 27px;
   color: #6a6a6a;
 }
+.apply-btn:hover {
+  background: linear-gradient(90deg, #6175fc 0%, #865afd 100%);
+}
 .apply-btn {
   font-family: "Manrope";
   font-style: normal;

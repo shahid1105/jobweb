@@ -27,6 +27,9 @@
   border: 1px solid rgb(127, 127, 226);
   border-radius: 8px;
 }
+.btn-view:hover {
+  background: linear-gradient(90deg, #4e65fb 0%, #7545fa 100%);
+}
 .btn-view {
   font-family: "Manrope";
   font-style: normal;

@@ -40,6 +40,9 @@
   align-items: center;
   justify-content: center;
 }
+.card-view-btn:hover {
+  background: linear-gradient(90deg, #4e65fa 0%, #713efb 100%);
+}
 .card-view-btn {
   font-family: "Manrope";
   font-style: normal;
