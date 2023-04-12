@@ -24,18 +24,21 @@ const Statistics = () => {
   ];
 
   return (
-    <div className="mx-48">
-      <h1 className="text-center mt-10 text-[#9ca2ea] text-4xl">
-        Assignment result Chart
-      </h1>
-      <div className="mt-14">
-        <AreaChart width={900} height={300} data={assignmentResult}>
-          <Area dataKey="assignmentMark" stroke="#0a0d12"></Area>
-          <Area dataKey="id"></Area>
-          <XAxis dataKey="assignmentName"></XAxis>
-          <YAxis></YAxis>
-          <Tooltip />
-        </AreaChart>
+    <div>
+      <h1 className="banner">Statistics</h1>
+      <div className="mx-48">
+        <h1 className="text-center mt-10 text-[#9ca2ea] text-4xl">
+          Assignment result Chart
+        </h1>
+        <div className="mt-14">
+          <AreaChart width={900} height={300} data={assignmentResult}>
+            <Area dataKey="assignmentMark" stroke="#0a0d12"></Area>
+            <Area dataKey="id"></Area>
+            <XAxis dataKey="assignmentName"></XAxis>
+            <YAxis></YAxis>
+            <Tooltip />
+          </AreaChart>
+        </div>
       </div>
     </div>
   );

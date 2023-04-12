@@ -1,48 +1,48 @@
 // use local storage to manage cart data
 const addToDb = id => {
-    let shoppingCart = {}
+    let appliedJob = {}
 
     //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart')
-    if (storedCart) {
-        shoppingCart = JSON.parse(storedCart)
+    const storedData = localStorage.getItem('applied-job')
+    if (storedData) {
+        appliedJob = JSON.parse(storedData)
     }
 
     // add quantity
-    const quantity = shoppingCart[id]
+    const quantity = appliedJob[id]
     if (quantity) {
         const newQuantity = quantity + 1
-        shoppingCart[id] = newQuantity
+        appliedJob[id] = newQuantity
     } else {
-        shoppingCart[id] = 1
+        appliedJob[id] = 1
     }
-    localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
+    localStorage.setItem('applied-job', JSON.stringify(appliedJob))
 }
 
-const getStoredCart = () => {
-    let shoppingCart = {}
+const getStoredData = () => {
+    let appliedJob = {}
 
     //get the shopping cart from local storage
-    const storedCart = localStorage.getItem('shopping-cart')
-    if (storedCart) {
-        shoppingCart = JSON.parse(storedCart)
+    const storedData = localStorage.getItem('applied-job')
+    if (storedData) {
+        appliedJob = JSON.parse(storedData)
     }
-    return shoppingCart
+    return appliedJob
 }
 
 const removeFromDb = id => {
-    const storedCart = localStorage.getItem('shopping-cart')
-    if (storedCart) {
-        const shoppingCart = JSON.parse(storedCart)
-        if (id in shoppingCart) {
-            delete shoppingCart[id]
-            localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
+    const storedData = localStorage.getItem('applied-job')
+    if (storedData) {
+        const appliedJob = JSON.parse(storedData)
+        if (id in appliedJob) {
+            delete appliedJob[id]
+            localStorage.setItem('applied-job', JSON.stringify(appliedJob))
         }
     }
 }
 
-const deleteShoppingCart = () => {
-    localStorage.removeItem('shopping-cart')
+const deleteAppliedJob = () => {
+    localStorage.removeItem('applied-job')
 }
 
-export { addToDb, getStoredCart, removeFromDb, deleteShoppingCart }
+export { addToDb, getStoredData, removeFromDb, deleteAppliedJob }

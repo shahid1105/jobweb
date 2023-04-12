@@ -8,17 +8,7 @@ import { useLoaderData } from "react-router-dom";
 const Home = () => {
   const features = useLoaderData();
 
-  //   const [seeMore, setSeeMore] = useState(true);
-  //   const [featuresAll, setFeaturesAll] = useState();
-
-  //   if (seeMore) {
-  //     seeMore = seeMore.slice(0, 4);
-  //     setFeaturesAll(seeMore);
-  //   } else {
-  //     setSeeMore();
-  //   }
-
-  //   const seeMoreHandler = () => {}; onClick={() => seeMoreHandler(true)}
+  const [seeMore, setSeeMore] = useState(false);
 
   return (
     <div>
@@ -33,13 +23,15 @@ const Home = () => {
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
-        <div className="md:mx-48 mt-8 job-card-container">
-          {features.map((feature) => (
+        <div className="md:mx-48 lg:mx-48 mt-8 job-card-container">
+          {features.slice(0, seeMore ? features?.length : 4).map((feature) => (
             <Feature key={feature.id} feature={feature}></Feature>
           ))}
         </div>
         <div className="see-more-btn-div mt-10 mb-10">
-          <button className="see-more-btn">See More</button>
+          <button onClick={() => setSeeMore(true)} className="see-more-btn">
+            See More
+          </button>
         </div>
       </section>
     </div>

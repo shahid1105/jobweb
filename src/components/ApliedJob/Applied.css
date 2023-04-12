@@ -1,0 +1,14 @@
+.banner {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Manrope";
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
+}
