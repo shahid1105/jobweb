@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar-bg">
-      <nav className="md:mx-48 flex justify-between pt-16 px-3 job-web-nav">
+      <nav className="md:mx-48 lg:mx-48 md:flex lg:flex md:justify-between lg:justify-between md:pt-16 lg:pt-16 md:px-3 lg:px-3 job-web-nav">
         <div>
           <h1 className="job-web">JobWave</h1>
         </div>

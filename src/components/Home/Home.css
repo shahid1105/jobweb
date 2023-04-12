@@ -46,3 +46,95 @@
   background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
   border-radius: 8px;
 }
+
+@media only screen and (max-width: 576px) {
+  #root {
+    max-width: 576px;
+  }
+  .featured-container {
+    margin-top: 25px;
+  }
+  .featured-job {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .feature-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  /* header style */
+  .one-step-div {
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+  }
+  .one-step-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header-img {
+    width: 500px;
+    height: 300px;
+  }
+  .get-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 2px 8px;
+
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+
+  .header-para {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  /* navbar style */
+  .job-web {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .btn-star {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 2px 8px;
+
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .job-web-nav {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  /* job card style */
+
+  .category-div {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  /* see more btn */
+  .see-more-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+  }
+}

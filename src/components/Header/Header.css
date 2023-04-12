@@ -14,7 +14,7 @@
   color: #7e90fe;
 }
 .header-img {
-  width: 700px;
+  width: 600px;
   height: 500px;
 }
 .get-btn {
@@ -46,5 +46,5 @@
     rgba(126, 144, 254, 0.1) 0%,
     rgba(152, 115, 255, 0.1) 100%
   );
-  border-radius: 8px;
+  border-radius: 2px;
 }

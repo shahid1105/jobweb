@@ -13,14 +13,14 @@ import {
 
 const Statistics = () => {
   const assignmentResult = [
-    { id: 1, assignmentName: "ass:-1", assignmentMark: 60 },
-    { id: 2, assignmentName: "ass:-2", assignmentMark: 59 },
-    { id: 3, assignmentName: "ass:-3", assignmentMark: 58 },
-    { id: 4, assignmentName: "ass:-4", assignmentMark: 54 },
-    { id: 5, assignmentName: "ass:-5", assignmentMark: 56 },
-    { id: 6, assignmentName: "ass:-6", assignmentMark: 60 },
-    { id: 7, assignmentName: "ass:-7", assignmentMark: 60 },
-    { id: 8, assignmentName: "ass:-8", assignmentMark: 58 },
+    { id: 1, assignmentName: "A:M:-1", assignmentMark: 60 },
+    { id: 2, assignmentName: "A:M:-2", assignmentMark: 59 },
+    { id: 3, assignmentName: "A:M:-3", assignmentMark: 58 },
+    { id: 4, assignmentName: "A:M:-4", assignmentMark: 54 },
+    { id: 5, assignmentName: "A:M:-5", assignmentMark: 56 },
+    { id: 6, assignmentName: "A:M:-6", assignmentMark: 60 },
+    { id: 7, assignmentName: "A:M:-7", assignmentMark: 60 },
+    { id: 8, assignmentName: "A:M:-8", assignmentMark: 58 },
   ];
 
   return (
