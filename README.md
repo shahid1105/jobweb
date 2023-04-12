@@ -5,6 +5,7 @@ This is a job application website. Here you can apply for various jobs and get d
 ### More on this website
 
 Blog, Statistics, Applied, Home components are built with React Router.
+and daynamic routing in this porjects.
 
 #### Live Site Link
 
