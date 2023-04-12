@@ -8,4 +8,4 @@ Blog, Statistics, Applied, Home components are built with React Router.
 
 #### Live Site Link
 
-Hosted in Netlify -> [JobWeb](https://herogadget.netlify.app/)
+Hosted in Netlify -> [JobWeb](https://sensational-pika-ad53d6.netlify.app)
